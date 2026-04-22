@@ -31,7 +31,8 @@ Displays a full analysis report + visual overlays
 🚀 Getting Started
 1. Install dependencies
 pip install opencv-python numpy pillow rawpy
-2. Install ExifTool
+
+3. Install ExifTool
 
 Download from: https://exiftool.org/
 
@@ -42,7 +43,7 @@ python app.py
 
 📁 Project Structure
 project/
-  ├── app.py
+  ├── photo_analyzer.py
   ├── deploy.prototxt
   ├── res10_300x300_ssd_iter_140000.caffemodel
   ├── photo_analysis.log
